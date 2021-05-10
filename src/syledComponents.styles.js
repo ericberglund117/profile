@@ -1,3 +1,5 @@
+import styled from 'styled-components';
+
 export const StyledButton = styled.div`
   font-family: 'Roboto', sans-serif;
   display: inline-flex;
