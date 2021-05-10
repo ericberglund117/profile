@@ -15,10 +15,16 @@ function App() {
         </StyledButton>
       </section>
       <section className="right-section">
-        
+        <StyledButton>
+          <div id="translate"></div>
+            <h2 className="link" id="addListButton">Contact</h2>
+        </StyledButton>
       </section>
       <section className="middle-section">
-        
+        <StyledButton>
+          <div id="translate"></div>
+            <h2 className="link" id="addListButton">Projects</h2>
+        </StyledButton>
       </section>
     </div>
   );
