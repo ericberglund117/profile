@@ -1,6 +1,7 @@
 import Header from './header/Header';
 import { StyledButton } from './syledComponents.styles';
 import './App.css';
+import MainPage from './mainPage/MainPage';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <section className="header-section">
         <Header />
       </section>
+      <MainPage />
       <section className="left-section">
         <StyledButton>
           <div id="translate"></div>

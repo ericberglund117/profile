@@ -1,0 +1,55 @@
+.background{
+    background: #7ce4ff;
+}
+
+.mountain{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 120px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 350px solid #5ad07d;
+    border-left: 180px solid transparent;
+    z-index: 5;
+}
+
+.mountain-shadow{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 300px;
+    border-top: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 350px solid #357639;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg)
+}
+
+.mountain-1{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 70px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 250px solid #5ad07d;
+    border-left: 130px solid transparent;
+    z-index: 5;
+}
+
+.mountain-shadow-1{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 200px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 250px solid #357639;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg)
+}
