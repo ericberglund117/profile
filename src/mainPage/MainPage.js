@@ -2,7 +2,7 @@ import "./MainPage.css"
 
 function MainPage() {
   return(
-    <div className="background">
+    <div className="circle">
        <section className="mountain">
            <section className="snow"></section>
            <section className="snow-jagged"></section>

@@ -1,5 +1,9 @@
-.background{
-    background: #7ce4ff;
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: outset;
+    background-color: #7ce4ff;
 }
 
 /* Tall mountain */
