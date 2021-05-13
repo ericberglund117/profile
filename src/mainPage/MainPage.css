@@ -1,6 +1,9 @@
 .circle{
-    width: 100px;
-    height: 100px;
+    position: relative;
+    display: flex;
+    width: 59vw;
+    height: 85vh;
+    left: 270px;
     border-radius: 50%;
     border-style: outset;
     background-color: #7ce4ff;
