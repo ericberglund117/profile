@@ -9,6 +9,7 @@ export const StyledButton = styled.div`
   margin: 10px;
   color: #6f896d;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: .8em;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -23,7 +24,7 @@ export const StyledButton = styled.div`
     color: #6f896d;
     position: relative;
     transition: all .45s ease-Out;
-    text-decoration: none;
+    text-decoration: underline;
   }
   &:hover #translate {
     left: 0;

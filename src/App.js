@@ -34,17 +34,21 @@ function App() {
         </section>
 
         <section className="right-section">
-          <StyledButton>
-            <div id="translate"></div>
-              <h2 className="link" id="addListButton">Contact</h2>
-          </StyledButton>
+          <Link to={"/contact"}>
+            <StyledButton>
+              <div id="translate"></div>
+                <h2 className="link" id="addListButton">Contact</h2>
+            </StyledButton>
+          </Link>
         </section>
 
         <section className="middle-section">
-          <StyledButton>
-            <div id="translate"></div>
-              <h2 className="link" id="addListButton">Projects</h2>
-          </StyledButton> 
+          <Link to={"/projects"}>
+            <StyledButton>
+              <div id="translate"></div>
+                <h2 className="link" id="addListButton">Projects</h2>
+            </StyledButton>
+          </Link> 
         </section>
     </div>
   );
