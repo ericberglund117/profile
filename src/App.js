@@ -1,5 +1,5 @@
 import Header from './header/Header';
-import { StyledButton } from './syledComponents.styles';
+import { StyledButton } from './styledComponents.styles';
 import './App.css';
 import MainPage from './mainPage/MainPage';
 import About from './about/About';
