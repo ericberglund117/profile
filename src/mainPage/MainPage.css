@@ -1,0 +1,307 @@
+.circle{
+    position: relative;
+    display: flex;
+    width: 59vw;
+    height: 85vh;
+    left: 270px;
+    border-radius: 50%;
+    border-style: outset;
+    background-color: #7ce4ff;
+}
+
+/* Tall mountain */
+.mountain{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 120px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 350px solid #5ad07d;
+    border-left: 180px solid transparent;
+    z-index: 5;
+}
+
+.mountain-shadow{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 300px;
+    border-top: 0px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 350px solid #357639;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg)
+}
+
+.snow{
+    position: absolute;
+    content: '';
+    bottom: -97px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #eeeeee;
+    border-left: 50px solid transparent;
+    z-index: 6;
+}
+
+.snow-jagged{
+    position: absolute;
+    content: '';
+    bottom: -104px;
+    left: -22px;
+    border-top: 11px solid #eeeeee;
+    border-right: 12px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 16px solid transparent;
+    z-index: 6;
+}
+
+.snow-jagged1{
+    position: absolute;
+    content: '';
+    bottom: -120px;
+    left: -10px;
+    border-top: 40px solid #eeeeee;
+    border-right: 25px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 25px solid transparent;
+    z-index: 6;
+}
+
+.snow-jagged2{
+    position: absolute;
+    content: '';
+    bottom: -104px;
+    left: -45px;
+    border-top: 8px solid #eeeeee;
+    border-right: 19px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 12px solid transparent;
+    z-index: 6;
+}
+
+.snow-shadow{
+    position: absolute;
+    content: '';
+    bottom: -86px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 100px solid #c2c2c2;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.snow-shadow-jagged{
+    position: absolute;
+    content: '';
+    bottom: -100px;
+    left: 0px;
+    border-top: 17px solid #c2c2c2;
+    border-right: 9px solid transparent;
+    border-bottom: 0px solid #c2c2c2;
+    border-left: 22px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+/* Left mountain */
+.mountain-left{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 70px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 250px solid #5ad07d;
+    border-left: 130px solid transparent;
+    z-index: 5;
+}
+
+.mountain-shadow-left{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 200px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 250px solid #357639;
+    border-left: 0px solid transparent;
+    z-index: 5;
+    transform-origin: top right;
+    transform: skewX(18deg)
+}
+
+.snow-left{
+    position: absolute;
+    content: '';
+    bottom: -96px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #eeeeee;
+    border-left: 50px solid transparent;
+    z-index: 6;
+}
+.snow-jagged-left{
+    position: absolute;
+    content: '';
+    bottom: -105px;
+    left: -9px;
+    border-top: 11px solid #eeeeee;
+    border-right: 12px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 16px solid transparent;
+    z-index: 6;
+}
+
+.snow-jagged1-left{
+    position: absolute;
+    content: '';
+    bottom: -123px;
+    left: -44px;
+    border-top: 40px solid #eeeeee;
+    border-right: 25px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 25px solid transparent;
+    z-index: 6;
+}
+
+.snow-shadow-left{
+    position: absolute;
+    content: '';
+    bottom: -85px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 100px solid #c2c2c2;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.snow-shadow-jagged-left{
+    position: absolute;
+    content: '';
+    bottom: -104px;
+    left: -17px;
+    border-top: 20px solid #c2c2c2;
+    border-right: 23px solid transparent;
+    border-bottom: 0px solid #c2c2c2;
+    border-left: 29px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: rotateY(49deg);
+}
+
+/* Right Mountain */
+.mountain-right{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 290px;
+    border-top: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 250px solid #5ad07d;
+    border-left: 130px solid transparent;
+    z-index: 6;
+}
+
+.mountain-shadow-right{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 421px;
+    border-top: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 250px solid #357639;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewX(18deg)
+}
+
+.snow-right{
+    position: absolute;
+    content: '';
+    bottom: -96px;
+    left: -50px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #eeeeee;
+    border-left: 50px solid transparent;
+    z-index: 6;
+}
+.snow-jagged-right{
+    position: absolute;
+    content: '';
+    bottom: -108px;
+    left: -9px;
+    border-top: 15px solid #eeeeee;
+    border-right: 15px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 30px solid transparent;
+    z-index: 6;
+}
+
+.snow-jagged1-right{
+    position: absolute;
+    content: '';
+    bottom: -118px;
+    left: -46px;
+    border-top: 24px solid #eeeeee;
+    border-right: 25px solid transparent;
+    border-bottom: 0px solid #eeeeee;
+    border-left: 25px solid transparent;
+    z-index: 6;
+}
+
+.snow-shadow-right{
+    position: absolute;
+    content: '';
+    bottom: -85px;
+    left: 0px;
+    border-top: 0px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 100px solid #c2c2c2;
+    border-left: 0px solid transparent;
+    z-index: 6;
+    transform-origin: top right;
+    transform: skewY(-18deg);
+}
+
+.snow-shadow-jagged-right{
+    position: absolute;
+    content: '';
+    bottom: -101px;
+    left: -19px;
+    border-top: 10px solid #c2c2c2;
+    border-right: 19px solid transparent;
+    border-bottom: 0px solid #c2c2c2;
+    border-left: 31px solid transparent;
+    z-index: 6;
+    transform-origin: top;
+    transform: rotateY(81deg);
+}
+
+.snow-shadow-jagged-right1{
+    position: absolute;
+    content: '';
+    bottom: -108px;
+    left: -17px;
+    border-top: 27px solid #c2c2c2;
+    border-right: 22px solid transparent;
+    border-bottom: 0px solid #c2c2c2;
+    border-left: 46px solid transparent;
+    z-index: 6;
+    transform-origin: top;
+    transform: rotateY(110deg);
+}
