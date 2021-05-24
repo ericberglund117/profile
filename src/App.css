@@ -7,11 +7,8 @@
   justify-content: flex-start;
   align-items: stretch;
   height: 100vh;
-  background-color: #03045E;
-}
-
-.main-header-section{
- background-color: #03045E;
+  background: rgb(144,224,239);
+  background: linear-gradient(0deg, rgba(144,224,239,1) 0%, rgba(3,4,94,1) 50%); 
 }
 
 a{
