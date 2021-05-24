@@ -1,3 +1,23 @@
-.App {
+.page {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 100vh;
+  background-color: #03045E;
 }
+
+.main-header-section{
+ background-color: #03045E;
+}
+
+a{
+  align-self: flex-start;
+}
+
+
+
+

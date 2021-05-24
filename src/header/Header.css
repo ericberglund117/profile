@@ -1,0 +1,9 @@
+.header-section {
+    background-color: #03045E;
+    color: #CAF0F8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }

@@ -1,0 +1,17 @@
+.left-clip{
+    /* position: absolute;
+    content: '';
+    bottom: 0;
+    left: -180px;
+    border-top: 0px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 350px solid #659B5E;
+    border-left: 180px solid transparent;
+    z-index: 5;
+    transform-origin: top;
+    transform: skewX(27deg) */
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #659B5E;
+    border-right: 100px solid transparent;
+}
