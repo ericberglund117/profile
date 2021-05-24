@@ -15,13 +15,21 @@ function App() {
       </section>
 
         <Route exact path="/">
-         {/* <MainPage /> */}
-         {/* <Design /> */}
         </Route>
 
         <section className="page">
           <About />
+          <section className="currently">
+            <h1 className="currently-title">Currently:</h1>
+            <section className="listening">
+              <p className="listening-title"> Listening to: </p>
+              <body className="spotify">
+              <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1E8LtVa53fIPXh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              </body>
+            </section>
+          </section>
         </section>
+
     </div>
   );
 }
