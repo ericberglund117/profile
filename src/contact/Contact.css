@@ -10,7 +10,7 @@
     align-items: center;
     background-color: #CAF0F8;
     border: 2px solid #03045E;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 50px;
 }
 
 a{
@@ -23,7 +23,7 @@ a{
 }
 
 .linkedInImage{
-    width: 55%;
+    width: 40%;
 }
 
 .githubImage{
