@@ -2,6 +2,7 @@ import Header from './header/Header';
 import { StyledButton } from './styledComponents.styles';
 import './App.css';
 import About from './about/About';
+import Contact from './contact/Contact';
 import {Route, Switch, Link} from 'react-router-dom';
 
 
@@ -13,7 +14,11 @@ function App() {
       </section>
 
         <Route exact path="/">
-          <App />
+          {/* <App /> */}
+        </Route>
+
+        <Route path="/contact">
+          <Contact />
         </Route>
 
         <section className="page">
