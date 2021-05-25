@@ -34,4 +34,4 @@ describe('About', () => {
         const aboutMeSection = screen.getByText(/former high school social studies teacher turned front\-end developer in denver, co\. i am a person who views any problem as an opportunity to learn, grow, and build connections\. as a 'forever student and teacher', my goal is to create\/update\/maintain software that can be used to advance a community or an individual based on their needs\. helping people has always been a passion and one i intend to continue pursuing\. thanks to my personal experiences, i am rooted in logical, empathetic, and collaborative tactics that can be used to solve countless problems\. give me a challenge and i'll respond with determination, enthusiasm, cooperation, patience, and a fun\-loving attitude\./i)
         expect(aboutMeSection).toBeInTheDocument();
     });
-})
+});
