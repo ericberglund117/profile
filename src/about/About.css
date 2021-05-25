@@ -1,0 +1,15 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    color: #CAF0F8; 
+    margin: 5em;
+}
+
+/* .skills-section{
+    border: thick double #CAF0F8;
+}
+
+.text-section{
+    border: thick double #CAF0F8;
+    border-top: none;
+} */

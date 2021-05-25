@@ -5,9 +5,9 @@ export const StyledButton = styled.div`
   display: inline-flex;
   height: 40px;
   width: 150px;
-  border: 2px solid #6f896d;
+  border: 2px solid #CAF0F8;
   margin: 10px;
-  color: #6f896d;
+  color: #CAF0F8;
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -21,7 +21,7 @@ export const StyledButton = styled.div`
   cursor: pointer;
   .link {
     font-weight: 500;
-    color: #6f896d;
+    color: #CAF0F8;
     position: relative;
     transition: all .45s ease-Out;
     text-decoration: underline;
@@ -30,7 +30,7 @@ export const StyledButton = styled.div`
     left: 0;
   }
   &:hover .link {
-    color: #f5f5f5;
+    color: #CAF0F8;
   }
   #translate {
     transform: rotate(50deg);
@@ -38,7 +38,7 @@ export const StyledButton = styled.div`
     height: 250%;
     left: -200px;
     top: -30px;
-    background: #6f896d;
+    background: #0096C7;
     position: absolute;
     transition: all .3s ease-Out;
   }

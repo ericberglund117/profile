@@ -1,0 +1,28 @@
+.header-section {
+    background: rgb(3,4,94);
+    background: linear-gradient(0deg, rgba(3,4,94,1) 40%, rgba(144,224,239,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #CAF0F8;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    height: 3em;
+}
+
+.intro{
+    margin-right: .5em;
+    font-size: 1.5em;
+}
+
+.frontend{
+    margin-top: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
