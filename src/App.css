@@ -15,6 +15,33 @@ a{
   align-self: flex-start;
 }
 
+.currently-title{
+  color: #CAF0F8;
+}
+
+.currently{
+  display: flex;
+  justify-content: space-around;
+  color: #CAF0F8;
+}
+
+.office{
+  max-width: 100%;
+  height: auto;
+}
+
+.watching{
+  width: 20%;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+  padding-inline-start: 0;
+  }
+
 
 
 
