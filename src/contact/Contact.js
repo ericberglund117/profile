@@ -12,7 +12,7 @@ function Contact() {
                 </section>
 
                 <section className="phone-section">
-                    <a href="tel:+3033458868">Phone: 303-345-8868</a>
+                    <a href="tel:+3033458868">Phone</a>
                 </section>
 
                 <section className="linkedIn-section">

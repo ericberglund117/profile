@@ -26,3 +26,9 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  .eb-logo{
+    width: 60%;
+    margin-top: 11px;
+    margin-left: 10px;
+  }
