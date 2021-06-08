@@ -3,6 +3,7 @@ import { StyledButton } from './styledComponents.styles';
 import './App.css';
 import About from './about/About';
 import Contact from './contact/Contact';
+import Projects from './projects/Projects';
 import {Route, Switch, Link} from 'react-router-dom';
 
 
@@ -12,7 +13,7 @@ function App() {
       <section className="main-header-section">
         <Header />
       </section>
-
+      <Switch>
         <Route exact path="/">
           {/* <App /> */}
         </Route>
@@ -20,7 +21,10 @@ function App() {
         <Route path="/contact">
           <Contact />
         </Route>
-
+        
+          <Route path="/projects" component={Projects}>
+          </Route>
+        </Switch>
         <section className="page">
           <About />
           <h1 className="currently-title">Currently:</h1>
