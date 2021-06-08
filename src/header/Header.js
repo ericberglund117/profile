@@ -1,10 +1,18 @@
 import Logo from '../logo/Logo.js'
 import "./Header.css"
+import Contact from '../contact/Contact';
 import {Route, Switch, Link} from 'react-router-dom';
 import { StyledButton } from '../styledComponents.styles';
 
 
 function Header() {
+
+  const displayContact = () => {
+    return(
+      <Contact />
+    );
+  };
+
   return(
     <section className="header-section">
       <Link to={`/`}>
@@ -17,7 +25,7 @@ function Header() {
       <h2 className="frontend">And I'm a Frontend Software Engineer</h2>
       <section className="buttons">
         <Link to={"/contact"}>
-          <StyledButton>
+          <StyledButton onClick={event => displayContact}>
             <div id="translate"></div>
               <h2 className="link" id="addListButton">Contact</h2>
           </StyledButton>

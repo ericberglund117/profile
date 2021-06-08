@@ -1,0 +1,32 @@
+.under{
+    background-color: #03045E;
+}
+
+.contact-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CAF0F8;
+    border: 2px solid #03045E;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #03045E
+}
+
+.linkedIn-section{
+    width: 10%;
+}
+
+.linkedInImage{
+    width: 40%;
+}
+
+.githubImage{
+    width: 80%;
+    padding: 5px;
+}
