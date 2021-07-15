@@ -24,8 +24,8 @@ function Header() {
         <h2 className="name">Eric Berglund</h2>
       </section> */}
       {/* <h2 className="frontend">And I'm a Frontend Software Engineer</h2> */}
-      <section className='triangle'></section>
-      <section className='triangle1'></section>
+      
+
       <section className="buttons">
         <Link to={"/contact"}>
           <StyledButton onClick={event => displayContact}>

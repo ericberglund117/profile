@@ -10,6 +10,7 @@ import {Route, Switch, Link} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+      {/* <section className='triangle'></section> */}
       <section className="main-header-section">
         <Header />
       </section>
@@ -26,8 +27,11 @@ function App() {
           </Route>
         </Switch>
         <section className="page">
+          <section className="intro">
+              <h1 className="dev">Frontend Software Developer</h1>
+          </section>
           <About />
-          <h1 className="currently-title">Currently:</h1>
+          {/* <h1 className="currently-title">Currently:</h1>
           <section className="currently">
             <section className="practicing">
               <p className="practicing-title"> Practicing: </p>
@@ -52,7 +56,7 @@ function App() {
               <p className="book">The Inner Circle by Brad Meltzer </p>
               <img className="inner-circle" src="https://images-na.ssl-images-amazon.com/images/I/51H9kUtjotL._SY291_BO1,204,203,200_QL40_ML2_.jpg" alt="The Inner Circle"></img>
             </section>
-          </section>
+          </section> */}
         </section>
 
     </div>

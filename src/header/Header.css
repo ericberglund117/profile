@@ -24,17 +24,6 @@
     display: flex;
   }
 
-.triangle {
-    position: absolute;
-    content: '';
-    border-top: 0px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 300px solid white;
-    border-left: 146px solid transparent;
-    transform-origin: top right;
-    transform: skewX(-28deg);
-}
-
   /* .eb-logo{
     width: 60%;
     margin-top: 11px;
