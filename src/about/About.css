@@ -1,7 +1,7 @@
 .about-section{
     display: flex;
     flex-direction: column;
-    color: #000000; 
+    color:white; 
     margin: 5em;
     margin-top: 0;
 }

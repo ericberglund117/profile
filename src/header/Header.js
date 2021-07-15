@@ -15,14 +15,17 @@ function Header() {
 
   return(
     <section className="header-section">
-      <Link to={`/`}>
+      {/* <Link to={`/`}>
           <img className="eb-logo" src="https://fontmeme.com/permalink/210505/81d25d957f62d7bbd5b434142331e1f7.png" alt="initial logo" />
-        </Link>
-      <section className="introduction">
+        </Link> */}
+
+      {/* <section className="introduction">
         <h1 className="intro">Hi, I'm</h1>
         <h2 className="name">Eric Berglund</h2>
-      </section>
-      <h2 className="frontend">And I'm a Frontend Software Engineer</h2>
+      </section> */}
+      {/* <h2 className="frontend">And I'm a Frontend Software Engineer</h2> */}
+      <section className='triangle'></section>
+      <section className='triangle1'></section>
       <section className="buttons">
         <Link to={"/contact"}>
           <StyledButton onClick={event => displayContact}>
@@ -51,7 +54,7 @@ function Header() {
               <h2 className="link" id="addListButton">Blog</h2>
           </StyledButton>
         </Link>
-    </section>
+      </section>
     </section>
   ) 
 } 

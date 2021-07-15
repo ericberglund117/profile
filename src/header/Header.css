@@ -1,17 +1,15 @@
 .header-section {
-    background: rgb(3,4,94);
-    background: linear-gradient(0deg, rgba(3,4,94,1) 40%, rgba(144,224,239,1) 100%);
+    background: black;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #CAF0F8;
+    flex-direction: row-reverse;
+    color:white;
 }
 
-.introduction{
+/* .introduction{
     display: flex;
     align-items: center;
     height: 3em;
-}
+} */
 
 .intro{
     margin-right: .5em;
@@ -24,11 +22,21 @@
 
 .buttons {
     display: flex;
-    justify-content: space-evenly;
   }
 
-  .eb-logo{
+.triangle {
+    position: absolute;
+    content: '';
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 300px solid white;
+    border-left: 146px solid transparent;
+    transform-origin: top right;
+    transform: skewX(-28deg);
+}
+
+  /* .eb-logo{
     width: 60%;
     margin-top: 11px;
     margin-left: 10px;
-  }
+  } */
