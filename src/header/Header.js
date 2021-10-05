@@ -47,11 +47,12 @@ function Header() {
               <h2 className="link" id="addListButton">Resume</h2>
           </StyledButton>
         </Link>
-
+        <a href="https://medium.com/@ericberglund117">
           <StyledButton>
             <div id="translate"></div>
               <h2 className="link" id="addListButton">Blog</h2>
           </StyledButton>
+        </a>
       </section>
     </section>
   ) 
