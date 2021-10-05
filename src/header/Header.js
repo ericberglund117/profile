@@ -48,12 +48,10 @@ function Header() {
           </StyledButton>
         </Link>
 
-        <Link to={"/blog"}>
           <StyledButton>
             <div id="translate"></div>
               <h2 className="link" id="addListButton">Blog</h2>
           </StyledButton>
-        </Link>
       </section>
     </section>
   ) 
