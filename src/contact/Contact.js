@@ -11,9 +11,9 @@ function Contact() {
                     <a href="mailto:ericberglund117@gmail.com">Email Me!</a>
                 </section>
 
-                <section className="phone-section">
+                {/* <section className="phone-section">
                     <a href="tel:+3033458868">Phone</a>
-                </section>
+                </section> */}
 
                 <section className="linkedIn-section">
                     <a href="https://www.linkedin.com/in/eric-berglund117/">
