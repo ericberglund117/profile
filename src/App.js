@@ -58,7 +58,6 @@ function App() {
             </section>
           </section> */}
         </section>
-
     </div>
   );
 }

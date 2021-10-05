@@ -23,7 +23,8 @@ a{
 }
 
 .linkedInImage{
-    width: 40%;
+    width: 35%;
+    margin-top: 2px;
 }
 
 .githubImage{
