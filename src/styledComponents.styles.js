@@ -5,7 +5,7 @@ export const StyledButton = styled.div`
   display: inline-flex;
   height: 40px;
   width: 150px;
-  border: 2px solid #CAF0F8;
+  border: 2px solid #E0EAFA;
   margin: 10px;
   color: #CAF0F8;
   text-transform: uppercase;
@@ -21,7 +21,7 @@ export const StyledButton = styled.div`
   cursor: pointer;
   .link {
     font-weight: 500;
-    color: #CAF0F8;
+    color: #E0EAFA;
     position: relative;
     transition: all .45s ease-Out;
     text-decoration: underline;
@@ -30,7 +30,7 @@ export const StyledButton = styled.div`
     left: 0;
   }
   &:hover .link {
-    color: #CAF0F8;
+    color: #E0EAFA;
   }
   #translate {
     transform: rotate(50deg);

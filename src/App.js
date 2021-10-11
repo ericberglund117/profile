@@ -8,6 +8,7 @@ import {Route, Switch, Link} from 'react-router-dom';
 
 
 function App() {
+  
   return (
     <div className="App">
       {/* <section className='triangle'></section> */}
@@ -23,7 +24,7 @@ function App() {
           <Contact />
         </Route>
         
-          <Route path="/projects" component={Projects}>
+        <Route path="/projects" component={Projects}>
           </Route>
         </Switch>
         <section className="page">
