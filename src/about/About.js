@@ -3,6 +3,20 @@ import "./About.css"
 function About() {
   return(
     <section className="about-section">
+      <div class="card-container">
+        <div class="card card0">
+          <div class="border">
+            <h2>Al Pacino</h2>
+          <div class="icons">
+            <i class="fa fa-codepen" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-dribbble" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </div>
       <section className="skills-section">
           <h2>Skills</h2>
           <p className="skills">

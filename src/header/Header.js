@@ -6,11 +6,11 @@ import { StyledButton } from '../styledComponents.styles';
 
 
 function Header() {
-
-  const displayContact = () => {
-    return(
+  
+  const displayContact = (name) => {
+    return (
       <Contact />
-    );
+    )
   };
 
   return(
